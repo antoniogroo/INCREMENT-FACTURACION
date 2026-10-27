@@ -43,7 +43,8 @@ La cuenta de "Explorar con datos de ejemplo" siempre se guarda solo en el navega
 ### Conectar FastAPI
 1. `cd backend/fastapi && pip install -r requirements.txt`
 2. `FOLIA_ORIGINS="https://TU-USUARIO.github.io" uvicorn main:app --port 8080` (en producción, detrás de HTTPS y con PostgreSQL).
-3. En `folia.config.js` descomenta la **Opción B** y pon la URL de tu API.
+Publicado en GitHub Pages
+4. En `folia.config.js` descomenta la **Opción B** y pon la URL de tu API.
 
 ## Seguridad
 - Sin backend, la contraseña se guarda con sal y SHA-256 en el propio navegador: protege contra miradas casuales, no contra alguien con acceso al equipo.
